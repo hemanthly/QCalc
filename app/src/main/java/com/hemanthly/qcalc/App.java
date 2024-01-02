@@ -9,6 +9,7 @@ public class App {
         System.out.println("Starting QCalc...");
         StandardCalculator calc = new StandardCalculator();
         calc.add(679, 13);
+        calc.add(1.5, 1.678);
         calc.printResult();
     }
 }
